@@ -11,6 +11,8 @@
     "deploy": "next build && next export && npx thirdweb@latest upload out"
   },
   "dependencies": {
+    "@google-cloud/secret-manager": "^4.1.4",
+    "@thirdweb-dev/auth": "^2.0.31",
     "@thirdweb-dev/react": "^3",
     "@thirdweb-dev/sdk": "^3",
     "ethers": "^5.6.8",
